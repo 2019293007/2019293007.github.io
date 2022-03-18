@@ -1,0 +1,243 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* body{
+    width: 90%;
+} */
+
+.w {
+    /* background-color: pink; */
+    margin: 0 auto;
+    width: 1391px;
+    /* height: 100px; */
+}
+
+
+/* @font-face {
+    font-family: 'iconfont';  /* Project id 3238882 
+    src: url('http://at.alicdn.com/t/font_3238882_vd6lliyw0j.woff2?t=1647055904010') format('woff2'),
+         url('http://at.alicdn.com/t/font_3238882_vd6lliyw0j.woff?t=1647055904010') format('woff'),
+         url('http://at.alicdn.com/t/font_3238882_vd6lliyw0j.ttf?t=1647055904010') format('truetype');
+  } */
+
+a {
+    text-decoration: none;
+}
+
+
+/* li{
+    list-style-type:none;
+} */
+
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.top {
+    /* background: #00a0d8; */
+    height: 86px;
+    text-align: center;
+    margin-bottom: 20px;
+    /* width: 6144px; */
+    background-color: rgb(0, 160, 216);
+}
+
+.fenge {
+    text-align: center;
+    margin: 0 auto;
+    width: 980px;
+    height: 28px;
+    border-bottom: 1px rgb(221, 221, 221) solid;
+}
+
+.fenge span {
+    line-height: 56px;
+    padding: 0 20px;
+    font-size: 28px;
+}
+
+.log .le,
+.rig {
+    float: left;
+    text-align: center;
+    margin-top: 30px;
+    width: 480px;
+    height: 400px;
+}
+
+.log .le {
+    margin-left: 270px;
+}
+
+.log .le>img {
+    width: 70px;
+    height: 70px;
+}
+
+.log .le .er {
+    margin-left: 6px;
+}
+
+.log .rig {
+    margin-top: 100px;
+}
+
+.log .rig .options {
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.log .rig .options :first-child {
+    color: rgb(0, 160, 216);
+}
+
+.log .rig .options span {
+    margin-right: 20px;
+}
+
+.log .rig .mi input {
+    width: 392px;
+    height: 38px;
+    margin-bottom: 36px;
+}
+
+.log .rig .xin {
+    display: none;
+}
+
+.log .rig .xin input {
+    width: 272px;
+    height: 38px;
+    margin-bottom: 36px;
+}
+
+.log .rig .xin select {
+    width: 120px;
+    height: 38px;
+}
+
+.log .rig .xin button {
+    width: 120px;
+    height: 38px;
+}
+
+.log .rig .third {
+    margin: 0 auto;
+    width: 410px;
+    height: 16px;
+}
+
+.log .rig .remember span {
+    font-size: 12px;
+    color: rgb(187, 187, 187);
+}
+
+.log .rig .remember {
+    float: left;
+}
+
+.log .rig .forget {
+    float: right;
+}
+
+.log .rig .forget span a {
+    font-size: 12px;
+    color: rgb(0, 161, 214);
+}
+
+.log .rig .but {
+    margin-top: 20px;
+}
+
+.log .rig .but button,
+.log .rig .but input {
+    margin-left: 20px;
+    width: 164px;
+    height: 36px;
+    /* margin-right: 50px; */
+}
+
+.log .rig .but button a {
+    line-height: 36px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.log .way {
+    position: relative;
+    margin-top: 10px;
+    font-family: 'iconfont';
+    font-size: 16px;
+}
+
+.log .way span {
+    margin-right: 20px;
+}
+
+.log .way a {
+    border-radius: 5px;
+    line-height: 21px;
+    color: white;
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+}
+
+#w {
+    border-radius: 50%;
+    background-color: rgb(87, 187, 64);
+}
+
+#q {
+    background-color: rgb(0, 134, 207);
+}
+
+#wb {
+    background-color: rgb(233, 47, 0);
+}
+
+.prompt {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(0, 161, 214);
+}
+
+.way div {
+    position: absolute;
+    /* margin-left: 10px; */
+    width: 120px;
+    height: 120px;
+    top: 30px;
+}
+
+.way div img {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.way .wei {
+    left: 23px;
+}
+
+.way .qq {
+    left: 158px;
+}
+
+.way .weibo {
+    left: 295px;
+}

@@ -1,0 +1,276 @@
+body {
+    background-color: #d2e9fb;
+}
+
+.w {
+    /* width: 76px; */
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* 顶部左 */
+
+.box {
+    width: 1160px;
+    margin: 16px auto;
+}
+
+.leftr {
+    position: relative;
+    /* margin-top: 16PX; */
+    float: left;
+    width: 244px;
+    height: 188px;
+    background-color: white;
+}
+
+.leftr .useimg img {
+    width: 100%;
+}
+
+.leftr>img {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 16px;
+    top: 48px;
+    border-radius: 50%;
+}
+
+.leftr .username {
+    font-weight: 200;
+    font-size: 14px;
+    margin-left: 80px;
+}
+
+.leftr {
+    text-align: center;
+}
+
+.leftr span {
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    width: 60px;
+    height: 20px;
+}
+
+
+/* 话题部分 发布评论*/
+
+.in {
+    color: rgb(148, 153, 160);
+    float: left;
+    margin: 0 16px;
+    width: 616px;
+    height: 114px;
+    background-color: white;
+}
+
+.in .intop {
+    margin-top: 16px;
+    margin-left: 16px;
+    text-align: center;
+    width: 76px;
+    height: 22px;
+    background-color: rgb(246, 247, 248);
+    border-radius: 11px;
+}
+
+.in input {
+    margin-left: 16px;
+    width: 600px;
+    height: 22px;
+    border: transparent;
+}
+
+.box .in .in-icon {
+    font-family: "iconfont";
+    width: 600px;
+    height: 52px;
+    margin-left: 16px;
+    font-size: 30px;
+    color: rgb(153, 153, 153);
+}
+
+.box .in .in-icon button {
+    color: white;
+    margin-right: 20px;
+    border: transparent;
+    border-radius: 5PX;
+    width: 70px;
+    height: 32px;
+    float: right;
+    background-color: rgb(128, 208, 235);
+}
+
+.rightr {
+    float: left;
+    width: 268px;
+}
+
+.rightr .gonggao {
+    margin-top: 0;
+    overflow: hidden;
+    height: 155px;
+    background-color: white;
+}
+
+.gonggao h4 {
+    margin: 12px 0 8px 16px;
+    font-weight: 200;
+}
+
+.gonggao .bulletin img {
+    margin-left: 16px;
+    width: 236px;
+    height: 100px;
+}
+
+.in .comments {
+    position: relative;
+    margin-top: 10px;
+    width: 616px;
+    height: 98px;
+    background-color: white;
+}
+
+.in .comments span {
+    font-weight: 200;
+    font-size: 25px;
+    position: absolute;
+    top: 30px;
+}
+
+.in .comments .l {
+    left: 0;
+}
+
+.in .comments .m {
+    left: 40px;
+    top: 20px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: rgb(185, 233, 249);
+    font-family: "iconfont";
+    line-height: 48px;
+    text-align: center;
+    color: rgb(0, 161, 214);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.in .comments .m div {
+    line-height: 30px;
+    font-size: 12px;
+}
+
+.in .comments .r {
+    right: 0;
+}
+
+.rightr .topic {
+    margin-top: 10px;
+    padding-left: 40px;
+    width: 268px;
+    /* height: 412px; */
+    background-color: white;
+}
+
+.rightr .topic h4 {
+    margin-left: -10px;
+}
+
+.rightr .topic li {
+    margin-top: 10px;
+    list-style: none;
+    font-size: 14px;
+    width: 140px;
+    height: 40px;
+}
+
+.in .daily {
+    position: relative;
+    margin-top: 10px;
+    height: 670px;
+    background-color: #fff;
+}
+
+.in .daily .sheying {
+    position: absolute;
+    top: 30px;
+    left: 35px;
+    width: 56px;
+    height: 56px;
+    /* background-color:#ccc; */
+}
+
+.in .daily .sheying img {
+    border: 1px #ccc solid;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.in .daily .sheying span {
+    position: absolute;
+    width: 70px;
+    left: 80px;
+    top: 5px;
+}
+
+.in .daily .caption {
+    /* position: absolute; */
+    padding-top: 100px;
+    margin-top: 20px;
+    text-align: center;
+    top: 120px;
+    left: 100px;
+    background-color: #fff;
+}
+
+.discuss {
+    margin-top: 80px;
+    text-align: center;
+    /* height: 100px; */
+    background-color: skyblue;
+}
+
+.discuss li {
+    width: 100%;
+    padding: 5px;
+    background-color: #ccc;
+    color: black;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+li a {
+    float: right;
+}
+
+.daily .black {
+    width: 100%;
+    height: 200px;
+}
+
+.back {
+    text-align: center;
+    position: fixed;
+    width: 100px;
+    height: 40px;
+    right: 0;
+    background-color: rgb(128, 208, 235);
+    border: 1px #ccc solid;
+    border-radius: 10px;
+}
+
+.back a {
+    line-height: 40px;
+}

@@ -1,0 +1,29 @@
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    zoom: 1;
+}
+@font-face {
+    font-family: 'iconfont';
+    /* Project id 3238882 */
+    src: url('http://at.alicdn.com/t/font_3238882_vd6lliyw0j.woff2?t=1647055904010') format('woff2'), url('http://at.alicdn.com/t/font_3238882_vd6lliyw0j.woff?t=1647055904010') format('woff'), url('http://at.alicdn.com/t/font_3238882_vd6lliyw0j.ttf?t=1647055904010') format('truetype');
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+input {
+    outline: none;
+}
