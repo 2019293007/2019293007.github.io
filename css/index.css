@@ -80,26 +80,12 @@ a {
     font-size: 12px;
 }
 
-header {
-    position: relative;
-    /* padding-bottom: 15px; */
-    /* overflow: hidden; */
-    /* width: 2560PX;
-    height: 179px;
-    margin: 0 auto; */
-    min-width: 1000px;
-    min-height: 155px;
-    height: 9.375vw;
-    max-height: 240px;
-    background-size: cover;
-    background: #fff url('../imgs/head.png') no-repeat 100%/100%;
-}
 
 .xiazaiapp {
     display: none;
     position: absolute;
     left: 350px;
-    top: 50px;
+    top: 60px;
     padding: 30px;
     border: 1px rgb(247, 232, 232) solid;
     border-radius: 5px;
@@ -110,9 +96,11 @@ header {
 }
 
 
-/* .xiazaiapp p{
-
- } */
+.xiazaiapp span{
+        position: absolute;
+        top: 15px;
+        left: 2px;
+ }
 
 .list {
     text-align: center;
@@ -121,9 +109,23 @@ header {
     display: inline-block;
     margin-left: 30px;
 }
+header {
+    position: relative;
+    /* padding-bottom: 15px; */
+    /* overflow: hidden; */
+     width: 1520PX;
+    height: 179px;
+    margin: 0 auto; 
+    min-width: 1000px;
+    min-height: 155px;
+    height: 9.375vw;
+    max-height: 240px;
+    background-size: 100%;
+    background: #fff url('../imgs/head.png') no-repeat 100%/100%;
+}
 
 .hd {
-    position: relative;
+    /* position: relative; */
     margin: 15px auto;
     /* padding-top: 15px; */
     width: 1508px;
